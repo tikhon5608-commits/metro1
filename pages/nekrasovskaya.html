@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Некрасовская линия - Московский метрополитен</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../line-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --line-color: #e26b99;
+            --line-color-light: #fce8f0;
+        }
+        
+        .line-header {
+            background-color: var(--line-color);
+        }
+        
+        .line-number {
+            color: var(--line-color);
+        }
+        
+        .info-card {
+            border-top-color: var(--line-color);
+        }
+        
+        .info-card h3 {
+            color: var(--line-color);
+        }
+        
+        .line-history {
+            background-color: var(--line-color-light);
+        }
+        
+        .line-history h3 {
+            color: var(--line-color);
+        }
+        
+        .back-to-main {
+            background-color: var(--line-color);
+        }
+        
+        .back-to-main:hover {
+            background-color: #d45082;
+            box-shadow: 0 5px 15px rgba(226, 107, 153, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h1>Московский метрополитен</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="../index.html#lines"><i class="fas fa-train"></i> Все ветки</a></li>
+                        <li><a href="../index.html#history"><i class="fas fa-history"></i> История</a></li>
+                        <li><a href="../index.html#map"><i class="fas fa-map"></i> Карта</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-header">
+        <div class="container">
+            <div class="line-header-content">
+                <div>
+                    <h2 class="line-title">Некрасовская линия</h2>
+                    <p>Четырнадцатая линия Московского метрополитена</p>
+                </div>
+                <div class="line-number">14</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="line-info-cards">
+            <div class="info-card">
+                <h3><i class="fas fa-calendar-alt"></i> Дата открытия</h3>
+                <p>3 июня 2019 года</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-route"></i> Длина линии</h3>
+                <p>22.3 км</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Количество станций</h3>
+                <p>11 станций</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Особенность</h3>
+                <p>Первая линия с полным беспилотным движением</p>
+            </div>
+        </div>
+
+        <div class="line-history">
+            <h3>История Некрасовской линии</h3>
+            <p>Некрасовская линия — четырнадцатая линия Московского метрополитена, первый участок которой был открыт 3 июня 2019 года. Линия получила название по Некрасовке — району Москвы, который она соединяет с центром.</p>
+            <p>Строительство линии началось в 2011 году как часть программы развития транспортной инфраструктуры восточных районов Москвы. Некрасовская линия стала первой в московском метро, изначально спроектированной для полностью беспилотного движения.</p>
+            <p>Первый участок от «Косино» до «Некрасовки» открылся в 2019 году. В 2020 году линия была продлена до станции «Лефортово», а в 2023 году — до «Авиамоторной» с пересадкой на Калининскую линию.</p>
+            <p>Некрасовская линия использует самые современные технологии, включая систему автоматического управления поездами (без машиниста), энергоэффективное оборудование и современные системы безопасности.</p>
+        </div>
+
+        <h3 class="section-title">Станции Некрасовской линии</h3>
+        
+        <div class="station-gallery">
+            <div class="station-card">
+                <div class="station-image" style="background-color: #fce8f0;">
+                    <i class="fas fa-water"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Косино</h4>
+                    <p>Конечная станция, открытая в 2019 году. Пересадочная на Таганско-Краснопресненскую линию. Названа по району Косино.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #f9d1e1;">
+                    <i class="fas fa-train"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Улица Дмитриевского</h4>
+                    <p>Станция 2019 года. Названа по улице Дмитриевского. Современный дизайн с акцентом на функциональность.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #f6bad2;">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Лухмановская</h4>
+                    <p>Открыта в 2019 года. Названа по Лухмановской улице. Экологичный дизайн с элементами природы.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #fce8f0;">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Некрасовка</h4>
+                    <p>Первая конечная станция, открытая в 2019 году. Названа по району Некрасовка. Крупный транспортный узел.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #f9d1e1;">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Юго-Восточная</h4>
+                    <p>Станция 2020 года. Названа по географическому положению. Современный футуристический дизайн.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #f6bad2;">
+                    <i class="fas fa-plane"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Авиамоторная</h4>
+                    <p>Конечная станция, открытая в 2023 году. Пересадочная на Калининскую линию. Названа по Авиамоторной улице.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../index.html" class="back-to-main">
+                <i class="fas fa-arrow-left"></i> Вернуться ко всем веткам метро
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Московский метрополитен</h3>
+                    <p>История подземки столицы</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../index.html#lines">Ветки метро</a></li>
+                        <li><a href="../index.html#history">История</a></li>
+                        <li><a href="../index.html#map">Карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> info@mosmetro-history.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 222-33-44</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Московский метрополитен. Все права защищены. Этот сайт создан в образовательных целях.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

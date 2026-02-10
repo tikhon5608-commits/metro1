@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Люблинско-Дмитровская линия - Московский метрополитен</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../line-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --line-color: #b3d445;
+            --line-color-light: #f0f8e6;
+        }
+        
+        .line-header {
+            background-color: var(--line-color);
+        }
+        
+        .line-number {
+            color: var(--line-color);
+        }
+        
+        .info-card {
+            border-top-color: var(--line-color);
+        }
+        
+        .info-card h3 {
+            color: var(--line-color);
+        }
+        
+        .line-history {
+            background-color: var(--line-color-light);
+        }
+        
+        .line-history h3 {
+            color: var(--line-color);
+        }
+        
+        .back-to-main {
+            background-color: var(--line-color);
+            color: #333;
+        }
+        
+        .back-to-main:hover {
+            background-color: #9bb836;
+            box-shadow: 0 5px 15px rgba(179, 212, 69, 0.3);
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h1>Московский метрополитен</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="../index.html#lines"><i class="fas fa-train"></i> Все ветки</a></li>
+                        <li><a href="../index.html#history"><i class="fas fa-history"></i> История</a></li>
+                        <li><a href="../index.html#map"><i class="fas fa-map"></i> Карта</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-header">
+        <div class="container">
+            <div class="line-header-content">
+                <div>
+                    <h2 class="line-title">Люблинско-Дмитровская линия</h2>
+                    <p>Десятая линия Московского метрополитена</p>
+                </div>
+                <div class="line-number">10</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="line-info-cards">
+            <div class="info-card">
+                <h3><i class="fas fa-calendar-alt"></i> Дата открытия</h3>
+                <p>28 декабря 1995 года</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-route"></i> Длина линии</h3>
+                <p>38.3 км</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Количество станций</h3>
+                <p>26 станций</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-users"></i> Пассажиропоток</h3>
+                <p>~800 тыс. человек в день</p>
+            </div>
+        </div>
+
+        <div class="line-history">
+            <h3>История Люблинско-Дмитровской линии</h3>
+            <p>Люблинско-Дмитровская линия — десятая линия Московского метрополитена, открытая 28 декабря 1995 года. Линия получила название по направлениям, в которых она проходит — к Люблинскому и Дмитровскому районам Москвы.</p>
+            <p>Строительство линии началось в 1980-х годах. Первый участок от станции «Чкаловская» до «Волжской» был открыт в 1995 году. Линия стала первой, построенной в постсоветский период, и отразила новые архитектурные тенденции.</p>
+            <p>В 1990-2000-х годах линия активно продлевалась на север и юг. К 2018 году линия достигла станции «Селигерская» на севере и «Косино» на востоке. В 2023 году был открыт участок до станции «Физтех».</p>
+            <p>Люблинско-Дмитровская линия проходит через густонаселенные жилые районы Москвы, соединяя восточные и северные районы города. Линия известна станциями с современным дизайном и использованием новых строительных технологий.</p>
+        </div>
+
+        <h3 class="section-title">Самые известные станции Люблинско-Дмитровской линии</h3>
+        
+        <div class="station-gallery">
+            <div class="station-card">
+                <div class="station-image" style="background-color: #f0f8e6;">
+                    <i class="fas fa-plane"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Чкаловская</h4>
+                    <p>Открыта в 1995 году. Названа в честь лётчика Валерия Чкалова. Украшена тематическими барельефами.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #d8e8c9;">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Трубная</h4>
+                    <p>Станция 2007 года. Названа по Трубной площади. Современный дизайн с использованием стекла и металла.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #c0d8ac;">
+                    <i class="fas fa-tree"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Достоевская</h4>
+                    <p>Открыта в 2010 году. Названа в честь Ф.М. Достоевского. Украшена мозаичными панно по мотивам его произведений.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #f0f8e6;">
+                    <i class="fas fa-water"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Волжская</h4>
+                    <p>Станция 1995 года. Названа по Волжскому бульвару. Дизайн отражает тему реки Волги.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #d8e8c9;">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Борисово</h4>
+                    <p>Открыта в 2011 году. Названа по Борисовским прудам. Современный экологичный дизайн.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #c0d8ac;">
+                    <i class="fas fa-subway"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Физтех</h4>
+                    <p>Конечная станция, открытая в 2023 году. Расположена у Московского физико-технического института. Научный дизайн.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../index.html" class="back-to-main">
+                <i class="fas fa-arrow-left"></i> Вернуться ко всем веткам метро
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Московский метрополитен</h3>
+                    <p>История подземки столицы</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../index.html#lines">Ветки метро</a></li>
+                        <li><a href="../index.html#history">История</a></li>
+                        <li><a href="../index.html#map">Карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> info@mosmetro-history.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 222-33-44</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Московский метрополитен. Все права защищены. Этот сайт создан в образовательных целях.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

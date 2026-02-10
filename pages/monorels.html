@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Монорельс - Московский метрополитен</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../line-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --line-color: #00a88f;
+            --line-color-light: #e6f7f4;
+        }
+        
+        .line-header {
+            background-color: var(--line-color);
+        }
+        
+        .line-number {
+            color: var(--line-color);
+        }
+        
+        .info-card {
+            border-top-color: var(--line-color);
+        }
+        
+        .info-card h3 {
+            color: var(--line-color);
+        }
+        
+        .line-history {
+            background-color: var(--line-color-light);
+        }
+        
+        .line-history h3 {
+            color: var(--line-color);
+        }
+        
+        .back-to-main {
+            background-color: var(--line-color);
+        }
+        
+        .back-to-main:hover {
+            background-color: #008672;
+            box-shadow: 0 5px 15px rgba(0, 168, 143, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h1>Московский метрополитен</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="../index.html#lines"><i class="fas fa-train"></i> Все ветки</a></li>
+                        <li><a href="../index.html#history"><i class="fas fa-history"></i> История</a></li>
+                        <li><a href="../index.html#map"><i class="fas fa-map"></i> Карта</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-header">
+        <div class="container">
+            <div class="line-header-content">
+                <div>
+                    <h2 class="line-title">Монорельс</h2>
+                    <p>Тринадцатая линия Московского метрополитена</p>
+                </div>
+                <div class="line-number">13</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="line-info-cards">
+            <div class="info-card">
+                <h3><i class="fas fa-calendar-alt"></i> Дата открытия</h3>
+                <p>20 ноября 2004 года</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-route"></i> Длина линии</h3>
+                <p>4.7 км</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Количество станций</h3>
+                <p>6 станций</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Тип транспорта</h3>
+                <p>Монорельсовая транспортная система</p>
+            </div>
+        </div>
+
+        <div class="line-history">
+            <h3>История Московского монорельса</h3>
+            <p>Московский монорельс — тринадцатая линия Московского метрополитена, открытая 20 ноября 2004 года. Это единственная монорельсовая система в Москве и одна из немногих в России.</p>
+            <p>Строительство монорельса началось в 2001 году как экспериментальный проект. Изначально планировалось, что монорельс станет частью транспортной системы, соединяющей отдалённые районы с центром, но в итоге был построен только один маршрут.</p>
+            <p>Линия соединяет станцию метро «Тимирязевская» (Серпуховско-Тимирязевская линия) с ВДНХ и Останкинской телебашней. Большая часть пути проходит по эстакаде на высоте 6-15 метров над землёй.</p>
+            <p>Монорельс изначально работал в экскурсионном режиме с интервалом 30 минут, но с 2008 года перешёл на обычный транспортный режим. В 2017 году система была полностью переведена на беспилотный режим управления.</p>
+        </div>
+
+        <h3 class="section-title">Станции Московского монорельса</h3>
+        
+        <div class="station-gallery">
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e6f7f4;">
+                    <i class="fas fa-train"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Тимирязевская</h4>
+                    <p>Конечная станция, открытая в 2004 году. Пересадочная на Серпуховско-Тимирязевскую линию метро. Наземная станция.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ccefe9;">
+                    <i class="fas fa-tv"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Телецентр</h4>
+                    <p>Станция 2004 года. Расположена рядом с Академией телевидения и радио и Останкинской телебашней. Эстакадная станция.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #b3e6de;">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Улица Академика Королёва</h4>
+                    <p>Открыта в 2004 году. Названа в честь Сергея Королёва. Расположена рядом с Мемориальным музеем космонавтики.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e6f7f4;">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Выставочный центр</h4>
+                    <p>Станция 2004 года. Расположена у северного входа на ВДНХ. Эстакадная станция с современным дизайном.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ccefe9;">
+                    <i class="fas fa-space-shuttle"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Улица Сергея Эйзенштейна</h4>
+                    <p>Открыта в 2004 году. Названа в честь режиссёра Сергея Эйзенштейна. Расположена рядом с киностудией.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #b3e6de;">
+                    <i class="fas fa-park"></i>
+                </div>
+                <div class="station-info">
+                    <h4>ВДНХ</h4>
+                    <p>Конечная станция, открытая в 2004 году. Пересадочная на Калужско-Рижскую линию метро. Крупный транспортный узел.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../index.html" class="back-to-main">
+                <i class="fas fa-arrow-left"></i> Вернуться ко всем веткам метро
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Московский метрополитен</h3>
+                    <p>История подземки столицы</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../index.html#lines">Ветки метро</a></li>
+                        <li><a href="../index.html#history">История</a></li>
+                        <li><a href="../index.html#map">Карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> info@mosmetro-history.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 222-33-44</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Московский метрополитен. Все права защищены. Этот сайт создан в образовательных целях.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

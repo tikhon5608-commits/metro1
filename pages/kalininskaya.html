@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калининская линия - Московский метрополитен</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../line-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --line-color: #f9d423;
+            --line-color-light: #fff9e6;
+        }
+        
+        .line-header {
+            background-color: var(--line-color);
+        }
+        
+        .line-number {
+            color: var(--line-color);
+        }
+        
+        .info-card {
+            border-top-color: var(--line-color);
+        }
+        
+        .info-card h3 {
+            color: var(--line-color);
+        }
+        
+        .line-history {
+            background-color: var(--line-color-light);
+        }
+        
+        .line-history h3 {
+            color: var(--line-color);
+        }
+        
+        .back-to-main {
+            background-color: var(--line-color);
+            color: #333;
+        }
+        
+        .back-to-main:hover {
+            background-color: #e6c11f;
+            box-shadow: 0 5px 15px rgba(249, 212, 35, 0.3);
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h1>Московский метрополитен</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="../index.html#lines"><i class="fas fa-train"></i> Все ветки</a></li>
+                        <li><a href="../index.html#history"><i class="fas fa-history"></i> История</a></li>
+                        <li><a href="../index.html#map"><i class="fas fa-map"></i> Карта</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-header">
+        <div class="container">
+            <div class="line-header-content">
+                <div>
+                    <h2 class="line-title">Калининская линия</h2>
+                    <p>Восьмая линия Московского метрополитена</p>
+                </div>
+                <div class="line-number">8</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="line-info-cards">
+            <div class="info-card">
+                <h3><i class="fas fa-calendar-alt"></i> Дата открытия</h3>
+                <p>30 декабря 1979 года</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-route"></i> Длина линии</h3>
+                <p>21.2 км</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Количество станций</h3>
+                <p>10 станций</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-users"></i> Пассажиропоток</h3>
+                <p>~400 тыс. человек в день</p>
+            </div>
+        </div>
+
+        <div class="line-history">
+            <h3>История Калининской линии</h3>
+            <p>Калининская линия — восьмая линия Московского метрополитена, открытая 30 декабря 1979 года. Линия получила название по Калининскому району Москвы (ныне район Новогиреево), через который проходит.</p>
+            <p>Строительство линии началось в 1970-х годах. Первый участок от станции «Марксистская» до «Новогиреево» был открыт в 1979 году. Линия стала первой, построенной полностью по новой технологии с использованием щитовой проходки.</p>
+            <p>В 1986 году линия была продлена на запад до станции «Третьяковская», что обеспечило пересадку на Калужско-Рижскую линию. В 2012 году был открыт участок до станции «Новокосино», который стал первым продлением линии за более чем 25 лет.</p>
+            <p>Калининская линия известна своими станциями, построенными в стиле «советского модернизма» 1970-х годов. Станции отличаются простыми формами, использованием современных материалов и яркими цветовыми решениями.</p>
+        </div>
+
+        <h3 class="section-title">Самые известные станции Калининской линии</h3>
+        
+        <div class="station-gallery">
+            <div class="station-card">
+                <div class="station-image" style="background-color: #fff9e6;">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Третьяковская</h4>
+                    <p>Открыта в 1986 году. Является пересадочной на Калужско-Рижскую линию. Названа в честь Третьяковской галереи.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #fff2cc;">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Марксистская</h4>
+                    <p>Станция 1979 года. Украшена декоративными панно из анодированного алюминия на тему марксистской философии.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ffeb99;">
+                    <i class="fas fa-tree"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Перово</h4>
+                    <p>Открыта в 1979 году. Названа по историческому району Перово. Дизайн станции отражает тему природы и экологии.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #fff9e6;">
+                    <i class="fas fa-subway"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Новогиреево</h4>
+                    <p>Конечная станция до 2012 года. Открыта в 1979 году. Названа по району Новогиреево. Современный функциональный дизайн.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #fff2cc;">
+                    <i class="fas fa-train"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Авиамоторная</h4>
+                    <p>Станция 1979 года. Названа по Авиамоторной улице. Украшена декоративными элементами на тему авиации.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ffeb99;">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Новокосино</h4>
+                    <p>Конечная станция, открытая в 2012 году. Расположена в районе Новокосино. Современный дизайн с акцентом на комфорт пассажиров.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../index.html" class="back-to-main">
+                <i class="fas fa-arrow-left"></i> Вернуться ко всем веткам метро
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Московский метрополитен</h3>
+                    <p>История подземки столицы</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../index.html#lines">Ветки метро</a></li>
+                        <li><a href="../index.html#history">История</a></li>
+                        <li><a href="../index.html#map">Карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> info@mosmetro-history.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 222-33-44</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Московский метрополитен. Все права защищены. Этот сайт создан в образовательных целях.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

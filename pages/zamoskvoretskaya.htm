@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Замоскворецкая линия - Московский метрополитен</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../line-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --line-color: #4fb04f;
+            --line-color-light: #e8f5e8;
+        }
+        
+        .line-header {
+            background-color: var(--line-color);
+        }
+        
+        .line-number {
+            color: var(--line-color);
+        }
+        
+        .info-card {
+            border-top-color: var(--line-color);
+        }
+        
+        .info-card h3 {
+            color: var(--line-color);
+        }
+        
+        .line-history {
+            background-color: var(--line-color-light);
+        }
+        
+        .line-history h3 {
+            color: var(--line-color);
+        }
+        
+        .back-to-main {
+            background-color: var(--line-color);
+        }
+        
+        .back-to-main:hover {
+            background-color: #3d8c3d;
+            box-shadow: 0 5px 15px rgba(79, 176, 79, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h1>Московский метрополитен</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="../index.html#lines"><i class="fas fa-train"></i> Все ветки</a></li>
+                        <li><a href="../index.html#history"><i class="fas fa-history"></i> История</a></li>
+                        <li><a href="../index.html#map"><i class="fas fa-map"></i> Карта</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-header">
+        <div class="container">
+            <div class="line-header-content">
+                <div>
+                    <h2 class="line-title">Замоскворецкая линия</h2>
+                    <p>Вторая линия Московского метрополитена</p>
+                </div>
+                <div class="line-number">2</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="line-info-cards">
+            <div class="info-card">
+                <h3><i class="fas fa-calendar-alt"></i> Дата открытия</h3>
+                <p>11 сентября 1938 года</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-route"></i> Длина линии</h3>
+                <p>42.8 км</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Количество станций</h3>
+                <p>24 станции</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-users"></i> Пассажиропоток</h3>
+                <p>~1.1 млн человек в день</p>
+            </div>
+        </div>
+
+        <div class="line-history">
+            <h3>История Замоскворецкой линии</h3>
+            <p>Замоскворецкая линия — вторая линия Московского метрополитена, открытая 11 сентября 1938 года. Первый участок соединял станции «Сокол» и «Площадь Свердлова» (ныне «Театральная»). Линия получила название по историческому району Москвы — Замоскворечью.</p>
+            <p>Строительство линии началось в 1935 году, сразу после открытия первой очереди метро. Линия должна была соединить северные районы Москвы с центром и югом города. В 1960-х годах линия была продлена на юг до станции «Каховская», а в 1980-х — на север до станции «Речной вокзал».</p>
+            <p>В 2012 году был открыт участок до станции «Алма-Атинская», что сделало Замоскворецкую линию одной из самых длинных в московском метро. Линия проходит через важные транспортные узлы, включая Белорусский и Павелецкий вокзалы.</p>
+            <p>Замоскворецкая линия известна станциями, построенными в стиле сталинского ампира, такими как «Маяковская» и «Театральная», которые являются памятниками архитектуры.</p>
+        </div>
+
+        <h3 class="section-title">Самые известные станции Замоскворецкой линии</h3>
+        
+        <div class="station-gallery">
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e8f5e8;">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Маяковская</h4>
+                    <p>Одна из самых красивых станций мира. Открыта в 1938 году. Знаменита мозаичными панно «Сутки советского неба».</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #d4edda;">
+                    <i class="fas fa-mask"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Театральная</h4>
+                    <p>Открыта в 1938 году. Расположена рядом с Большим театром. Украшена фарфоровыми фигурами в национальных костюмах.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #c3e6cb;">
+                    <i class="fas fa-train"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Белорусская</h4>
+                    <p>Станция 1938 года. Названа по Белорусскому вокзалу. Украшена мозаиками на тему белорусской культуры.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e8f5e8;">
+                    <i class="fas fa-water"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Речной вокзал</h4>
+                    <p>Конечная станция, открытая в 1964 году. Расположена у Северного речного вокзала. Архитектура напоминает корабль.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #d4edda;">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Новокузнецкая</h4>
+                    <p>Открыта в 1943 году во время войны. Знаменита мозаичными панно, созданными в блокадном Ленинграде.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #c3e6cb;">
+                    <i class="fas fa-ship"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Кантемировская</h4>
+                    <p>Станция 1984 года. Названа по Кантемировской дивизии. Украшена тематическими барельефами.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../index.html" class="back-to-main">
+                <i class="fas fa-arrow-left"></i> Вернуться ко всем веткам метро
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Московский метрополитен</h3>
+                    <p>История подземки столицы</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../index.html#lines">Ветки метро</a></li>
+                        <li><a href="../index.html#history">История</a></li>
+                        <li><a href="../index.html#map">Карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> info@mosmetro-history.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 222-33-44</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Московский метрополитен. Все права защищены. Этот сайт создан в образовательных целях.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Арбатско-Покровская линия - Московский метрополитен</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../line-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --line-color: #0078bf;
+            --line-color-light: #e6f2ff;
+        }
+        
+        .line-header {
+            background-color: var(--line-color);
+        }
+        
+        .line-number {
+            color: var(--line-color);
+        }
+        
+        .info-card {
+            border-top-color: var(--line-color);
+        }
+        
+        .info-card h3 {
+            color: var(--line-color);
+        }
+        
+        .line-history {
+            background-color: var(--line-color-light);
+        }
+        
+        .line-history h3 {
+            color: var(--line-color);
+        }
+        
+        .back-to-main {
+            background-color: var(--line-color);
+        }
+        
+        .back-to-main:hover {
+            background-color: #005a8f;
+            box-shadow: 0 5px 15px rgba(0, 120, 191, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h1>Московский метрополитен</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="../index.html#lines"><i class="fas fa-train"></i> Все ветки</a></li>
+                        <li><a href="../index.html#history"><i class="fas fa-history"></i> История</a></li>
+                        <li><a href="../index.html#map"><i class="fas fa-map"></i> Карта</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-header">
+        <div class="container">
+            <div class="line-header-content">
+                <div>
+                    <h2 class="line-title">Арбатско-Покровская линия</h2>
+                    <p>Третья линия Московского метрополитена</p>
+                </div>
+                <div class="line-number">3</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="line-info-cards">
+            <div class="info-card">
+                <h3><i class="fas fa-calendar-alt"></i> Дата открытия</h3>
+                <p>13 марта 1938 года</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-route"></i> Длина линии</h3>
+                <p>45.1 км</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Количество станций</h3>
+                <p>22 станции</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-users"></i> Пассажиропоток</h3>
+                <p>~850 тыс. человек в день</p>
+            </div>
+        </div>
+
+        <div class="line-history">
+            <h3>История Арбатско-Покровской линии</h3>
+            <p>Арбатско-Покровская линия — третья линия Московского метрополитена, открытая 13 марта 1938 года. Первоначально линия состояла из участка от станции «Курская» до станции «Киевская» и была глубокого заложения.</p>
+            <p>Строительство глубокой линии было вызвано военными соображениями — после начала Великой Отечественной войны стало понятно, что неглубокие станции уязвимы для авианалётов. В 1953 году была открыта новая глубокая часть линии от «Площади Революции» до «Киевской», а старая неглубокая линия стала частью Филевской линии.</p>
+            <p>В 1960-х годах линия была продлена на восток до станции «Щёлковская», а в 2000-х годах — на запад до станции «Пятницкое шоссе». Линия проходит через исторический центр Москвы, включая Арбат и Покровку, что и дало ей название.</p>
+            <p>Арбатско-Покровская линия включает в себя одну из самых глубоких станций московского метро — «Парк Победы» (84 метра), а также самую длинную станцию — «Парк Победы» (282 метра).</p>
+        </div>
+
+        <h3 class="section-title">Самые известные станции Арбатско-Покровской линии</h3>
+        
+        <div class="station-gallery">
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e6f2ff;">
+                    <i class="fas fa-archway"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Площадь Революции</h4>
+                    <p>Открыта в 1938 году. Знаменита 76 бронзовыми скульптурами, изображающими советских людей разных профессий.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #cce5ff;">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Арбатская</h4>
+                    <p>Глубокая станция, открытая в 1953 году. Украшена люстрами и декоративными элементами в стиле барокко.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #99ceff;">
+                    <i class="fas fa-tree"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Парк Победы</h4>
+                    <p>Самая глубокая станция московского метро (84 м). Открыта в 2003 году. Украшена мозаичными панно на тему войны 1812 года и Великой Отечественной войны.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e6f2ff;">
+                    <i class="fas fa-gopuram"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Киевская</h4>
+                    <p>Станция 1953 года. Украшена фресками, посвященными Украине и дружбе украинского и русского народов.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #cce5ff;">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Славянский бульвар</h4>
+                    <p>Станция 2008 года. Выполнена в стиле хай-тек с элементами, напоминающими книги на полках.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #99ceff;">
+                    <i class="fas fa-train"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Курская</h4>
+                    <p>Станция 1938 года. Расположена под Курским вокзалом. Украшена тематическими барельефами.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../index.html" class="back-to-main">
+                <i class="fas fa-arrow-left"></i> Вернуться ко всем веткам метро
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Московский метрополитен</h3>
+                    <p>История подземки столицы</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../index.html#lines">Ветки метро</a></li>
+                        <li><a href="../index.html#history">История</a></li>
+                        <li><a href="../index.html#map">Карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> info@mosmetro-history.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 222-33-44</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Московский метрополитен. Все права защищены. Этот сайт создан в образовательных целях.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

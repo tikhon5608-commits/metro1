@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калужско-Рижская линия - Московский метрополитен</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../line-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --line-color: #f58632;
+            --line-color-light: #fff0e6;
+        }
+        
+        .line-header {
+            background-color: var(--line-color);
+        }
+        
+        .line-number {
+            color: var(--line-color);
+        }
+        
+        .info-card {
+            border-top-color: var(--line-color);
+        }
+        
+        .info-card h3 {
+            color: var(--line-color);
+        }
+        
+        .line-history {
+            background-color: var(--line-color-light);
+        }
+        
+        .line-history h3 {
+            color: var(--line-color);
+        }
+        
+        .back-to-main {
+            background-color: var(--line-color);
+        }
+        
+        .back-to-main:hover {
+            background-color: #d9731e;
+            box-shadow: 0 5px 15px rgba(245, 134, 50, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h1>Московский метрополитен</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="../index.html#lines"><i class="fas fa-train"></i> Все ветки</a></li>
+                        <li><a href="../index.html#history"><i class="fas fa-history"></i> История</a></li>
+                        <li><a href="../index.html#map"><i class="fas fa-map"></i> Карта</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-header">
+        <div class="container">
+            <div class="line-header-content">
+                <div>
+                    <h2 class="line-title">Калужско-Рижская линия</h2>
+                    <p>Шестая линия Московского метрополитена</p>
+                </div>
+                <div class="line-number">6</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="line-info-cards">
+            <div class="info-card">
+                <h3><i class="fas fa-calendar-alt"></i> Дата открытия</h3>
+                <p>1 мая 1958 года</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-route"></i> Длина линии</h3>
+                <p>37.6 км</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Количество станций</h3>
+                <p>24 станции</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-users"></i> Пассажиропоток</h3>
+                <p>~900 тыс. человек в день</p>
+            </div>
+        </div>
+
+        <div class="line-history">
+            <h3>История Калужско-Рижской линии</h3>
+            <p>Калужско-Рижская линия — шестая линия Московского метрополитена, образованная 1 мая 1958 года соединением Калужского и Рижского радиусов. Линия получила название по направлениям, в которых она проходит — к Калужской площади и Рижскому вокзалу.</p>
+            <p>Строительство линии началось в 1950-х годах. Первый участок от станции «Проспект Мира» до «ВСХВ» (ныне «ВДНХ») был открыт в 1958 году. В 1962 году линия была продлена на юг до станции «Новые Черёмушки», а в 1964 году — до «Калужской».</p>
+            <p>В 1970-1974 годах линия была продлена на север до станции «Медведково», что сделало её одной из самых длинных на тот момент. В 1990 году был открыт последний участок на юге до станции «Битцевский парк».</p>
+            <p>Калужско-Рижская линия соединяет северные и южные районы Москвы, проходя через центр города. Линия известна станциями, построенными в стиле «советского модернизма», которые отличаются простыми формами и функциональностью.</p>
+        </div>
+
+        <h3 class="section-title">Самые известные станции Калужско-Рижской линии</h3>
+        
+        <div class="station-gallery">
+            <div class="station-card">
+                <div class="station-image" style="background-color: #fff0e6;">
+                    <i class="fas fa-space-shuttle"></i>
+                </div>
+                <div class="station-info">
+                    <h4>ВДНХ</h4>
+                    <p>Открыта в 1958 году. Расположена у главного входа на ВДНХ. Украшена тематическими барельефами на тему науки и сельского хозяйства.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ffd9b3;">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Алексеевская</h4>
+                    <p>Станция 1958 года. Первоначально называлась «Щербаковская». Украшена мозаичными панно на тему русских народных сказок.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ffc28a;">
+                    <i class="fas fa-subway"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Рижская</h4>
+                    <p>Открыта в 1958 году. Находится у Рижского вокзала. Украшена декоративными элементами, отражающими латышскую культуру.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #fff0e6;">
+                    <i class="fas fa-tree"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Ботанический сад</h4>
+                    <p>Станция 1978 года. Расположена рядом с Главным ботаническим садом РАН. Дизайн отражает тему природы и ботаники.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ffd9b3;">
+                    <i class="fas fa-park"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Медведково</h4>
+                    <p>Конечная станция, открытая в 1978 году. Названа по историческому району Медведково. Современный дизайн с элементами хай-тек.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ffc28a;">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Битцевский парк</h4>
+                    <p>Конечная станция на юге, открытая в 1990 году. Расположена у входа в Битцевский лесопарк. Экологичный дизайн.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../index.html" class="back-to-main">
+                <i class="fas fa-arrow-left"></i> Вернуться ко всем веткам метро
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Московский метрополитен</h3>
+                    <p>История подземки столицы</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../index.html#lines">Ветки метро</a></li>
+                        <li><a href="../index.html#history">История</a></li>
+                        <li><a href="../index.html#map">Карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> info@mosmetro-history.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 222-33-44</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Московский метрополитен. Все права защищены. Этот сайт создан в образовательных целях.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

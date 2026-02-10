@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Большая кольцевая линия - Московский метрополитен</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../line-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --line-color: #8f4d94;
+            --line-color-light: #f5e6f7;
+        }
+        
+        .line-header {
+            background-color: var(--line-color);
+        }
+        
+        .line-number {
+            color: var(--line-color);
+        }
+        
+        .info-card {
+            border-top-color: var(--line-color);
+        }
+        
+        .info-card h3 {
+            color: var(--line-color);
+        }
+        
+        .line-history {
+            background-color: var(--line-color-light);
+        }
+        
+        .line-history h3 {
+            color: var(--line-color);
+        }
+        
+        .back-to-main {
+            background-color: var(--line-color);
+        }
+        
+        .back-to-main:hover {
+            background-color: #723d77;
+            box-shadow: 0 5px 15px rgba(143, 77, 148, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h1>Московский метрополитен</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="../index.html#lines"><i class="fas fa-train"></i> Все ветки</a></li>
+                        <li><a href="../index.html#history"><i class="fas fa-history"></i> История</a></li>
+                        <li><a href="../index.html#map"><i class="fas fa-map"></i> Карта</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-header">
+        <div class="container">
+            <div class="line-header-content">
+                <div>
+                    <h2 class="line-title">Большая кольцевая линия</h2>
+                    <p>Одиннадцатая линия Московского метрополитена</p>
+                </div>
+                <div class="line-number">11</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="line-info-cards">
+            <div class="info-card">
+                <h3><i class="fas fa-calendar-alt"></i> Дата открытия</h3>
+                <p>26 февраля 2018 года</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-route"></i> Длина линии</h3>
+                <p>70 км (в перспективе)</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Количество станций</h3>
+                <p>31 станция (в перспективе)</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-redo"></i> Форма линии</h3>
+                <p>Самое большое метрокольцо в мире</p>
+            </div>
+        </div>
+
+        <div class="line-history">
+            <h3>История Большой кольцевой линии</h3>
+            <p>Большая кольцевая линия — одиннадцатая линия Московского метрополитена, первый участок которой был открыт 26 февраля 2018 года. Это крупнейший инфраструктурный проект в истории московского метро и самое большое метрокольцо в мире.</p>
+            <p>Идея строительства второй кольцевой линии возникла ещё в 1980-х годах, но к реализации приступили только в 2010-х. Первый участок от «Делового центра» до «Петровского парка» открылся в 2018 году. С тех пор линия постоянно расширяется.</p>
+            <p>К 2023 году было открыто уже более 20 станций БКЛ. Полностью завершить строительство планируется к 2024-2025 годам. Протяжённость линии составит около 70 км с 31 станцией.</p>
+            <p>Большая кольцевая линия решит проблему перегруженности центральных пересадочных узлов и обеспечит связь между отдалёнными районами Москвы без необходимости ехать через центр.</p>
+        </div>
+
+        <h3 class="section-title">Самые известные станции Большой кольцевой линии</h3>
+        
+        <div class="station-gallery">
+            <div class="station-card">
+                <div class="station-image" style="background-color: #f5e6f7;">
+                    <i class="fas fa-city"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Деловой центр</h4>
+                    <p>Первая станция БКЛ, открытая в 2018 году. Расположена в ММДЦ «Москва-Сити». Современный футуристический дизайн.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ebccef;">
+                    <i class="fas fa-park"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Петровский парк</h4>
+                    <p>Станция 2018 года. Названа по историческому парку. Дизайн отражает тему авиации (рядом стадион «Динамо»).</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e0b3e6;">
+                    <i class="fas fa-train"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Савёловская</h4>
+                    <p>Открыта в 2018 году. Пересадочная на Серпуховско-Тимирязевскую линию. Расположена у Савёловского вокзала.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #f5e6f7;">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Нижегородская</h4>
+                    <p>Станция 2020 года. Названа по Нижегородской улице. Современный дизайн с элементами индустриального стиля.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ebccef;">
+                    <i class="fas fa-water"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Текстильщики</h4>
+                    <p>Открыта в 2020 году. Пересадочная на Таганско-Краснопресненскую линию. Названа по району Текстильщики.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e0b3e6;">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Каховская</h4>
+                    <p>Станция 2021 года. Пересадочная на Замоскворецкую линию. Современный дизайн с акцентом на удобство пассажиров.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../index.html" class="back-to-main">
+                <i class="fas fa-arrow-left"></i> Вернуться ко всем веткам метро
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Московский метрополитен</h3>
+                    <p>История подземки столицы</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../index.html#lines">Ветки метро</a></li>
+                        <li><a href="../index.html#history">История</a></li>
+                        <li><a href="../index.html#map">Карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> info@mosmetro-history.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 222-33-44</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Московский метрополитен. Все права защищены. Этот сайт создан в образовательных целях.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

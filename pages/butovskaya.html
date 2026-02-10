@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бутовская линия - Московский метрополитен</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../line-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --line-color: #bcebdd;
+            --line-color-light: #e6f7f2;
+        }
+        
+        .line-header {
+            background-color: var(--line-color);
+            color: #333;
+        }
+        
+        .line-number {
+            color: var(--line-color);
+            background-color: #333;
+        }
+        
+        .info-card {
+            border-top-color: var(--line-color);
+        }
+        
+        .info-card h3 {
+            color: #2d7d6e;
+        }
+        
+        .line-history {
+            background-color: var(--line-color-light);
+        }
+        
+        .line-history h3 {
+            color: #2d7d6e;
+        }
+        
+        .back-to-main {
+            background-color: #2d7d6e;
+            color: white;
+        }
+        
+        .back-to-main:hover {
+            background-color: #23665a;
+            box-shadow: 0 5px 15px rgba(45, 125, 110, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h1>Московский метрополитен</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="../index.html#lines"><i class="fas fa-train"></i> Все ветки</a></li>
+                        <li><a href="../index.html#history"><i class="fas fa-history"></i> История</a></li>
+                        <li><a href="../index.html#map"><i class="fas fa-map"></i> Карта</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-header">
+        <div class="container">
+            <div class="line-header-content">
+                <div>
+                    <h2 class="line-title">Бутовская линия</h2>
+                    <p>Двенадцатая линия Московского метрополитена</p>
+                </div>
+                <div class="line-number">12</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="line-info-cards">
+            <div class="info-card">
+                <h3><i class="fas fa-calendar-alt"></i> Дата открытия</h3>
+                <p>27 декабря 2003 года</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-route"></i> Длина линии</h3>
+                <p>10 км</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-train"></i> Количество станций</h3>
+                <p>7 станций</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-users"></i> Пассажиропоток</h3>
+                <p>~150 тыс. человек в день</p>
+            </div>
+        </div>
+
+        <div class="line-history">
+            <h3>История Бутовской линии</h3>
+            <p>Бутовская линия — двенадцатая линия Московского метрополитена, открытая 27 декабря 2003 года. Линия получила название по району Бутово, который она соединяет с основной сетью метро.</p>
+            <p>Строительство линии началось в 2001 году как часть программы развития транспортной инфраструктуры новых жилых районов Москвы. Бутовская линия стала первой в московском метро, построенной преимущественно как легкое метро (лёгкий метрополитен).</p>
+            <p>Первоначально линия состояла из 5 станций от «Улицы Старокачаловской» до «Бунинской Аллеи». В 2014 году линия была продлена на юг до станции «Битцевский парк», что обеспечило пересадку на Серпуховско-Тимирязевскую линию.</p>
+            <p>Бутовская линия имеет уникальную особенность — большая часть линии проходит по эстакаде над землёй, что отличает её от традиционных подземных линий московского метро.</p>
+        </div>
+
+        <h3 class="section-title">Самые известные станции Бутовской линии</h3>
+        
+        <div class="station-gallery">
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e6f7f2;">
+                    <i class="fas fa-tree"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Улица Старокачаловская</h4>
+                    <p>Конечная станция на севере, открытая в 2003 году. Пересадочная на Серпуховско-Тимирязевскую линию. Наземная станция.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ccefe6;">
+                    <i class="fas fa-park"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Улица Скобелевская</h4>
+                    <p>Станция 2003 года. Названа по Скобелевской улице. Эстакадная станция с современным дизайном.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #b3e6d9;">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Бульвар Адмирала Ушакова</h4>
+                    <p>Открыта в 2003 году. Названа в честь адмирала Фёдора Ушакова. Эстакадная станция с морской тематикой.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #e6f7f2;">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Улица Горчакова</h4>
+                    <p>Станция 2003 года. Названа по улице Горчакова. Эстакадная станция с зелёным оформлением.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #ccefe6;">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Бунинская Аллея</h4>
+                    <p>Первая конечная станция, открытая в 2003 году. Названа по Бунинской аллее. Крупный транспортно-пересадочный узел.</p>
+                </div>
+            </div>
+            
+            <div class="station-card">
+                <div class="station-image" style="background-color: #b3e6d9;">
+                    <i class="fas fa-subway"></i>
+                </div>
+                <div class="station-info">
+                    <h4>Лесопарковая</h4>
+                    <p>Станция 2014 года. Расположена рядом с Битцевским лесопарком. Экологичный дизайн с элементами природы.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../index.html" class="back-to-main">
+                <i class="fas fa-arrow-left"></i> Вернуться ко всем веткам метро
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="metro-logo">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Московский метрополитен</h3>
+                    <p>История подземки столицы</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../index.html#lines">Ветки метро</a></li>
+                        <li><a href="../index.html#history">История</a></li>
+                        <li><a href="../index.html#map">Карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> info@mosmetro-history.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 222-33-44</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Московский метрополитен. Все права защищены. Этот сайт создан в образовательных целях.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
